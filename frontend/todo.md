@@ -1,0 +1,1 @@
+handle server failure on frontend side (on login and register)

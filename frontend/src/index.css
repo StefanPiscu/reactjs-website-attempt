@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root{
+  min-height: 100%;
+  position: relative;
+}
+
+.markdown-wrapper *{
+
+  word-wrap:break-word;
+}
+
+.markdown-wrapper h1{
+  @apply text-3xl;
+}
+.markdown-wrapper h2{
+  @apply text-2xl;
+}
+
+.markdown-wrapper h3{
+  @apply text-xl;
+}
+
+.markdown-wrapper h4{
+  @apply text-lg;
+}
+
+.markdown-wrapper h5{
+  @apply text-sm;
+}
+
+.markdown-wrapper h6{
+  @apply text-sm;
+}
+
+.markdown-wrapper pre{
+  @apply bg-dark p-2 my-1 rounded-md;
+}
+
+.markdown-wrapper a{
+  @apply underline text-contrast
+}
+
+.markdown-wrapper ol{
+  @apply list-decimal list-inside
+}
+
+.markdown-wrapper ul{
+  @apply list-inside list-disc
+}
+
+.min-w-1\/2 {
+  min-width: 50%;
+}
